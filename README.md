@@ -48,22 +48,22 @@ Now you're ready to start the app and experiment with the package 🚀.
 The package converts JSON to CodableViews, to do this, there has to be some kind of JSON it can load and convert. A good example of the JSON Strcuture is something like this.
 ```json
 {
-	"screens": [
-		{
-			"id": "home",
-			"title": "Home",
-			"type": "table",
-			"rows": [
-				{
-					"title": "First row",
-					"actionType": "alert",
-					"action": {
-						"title": "This is the first row",
-						"message": "Oh yes it is!"
-					}
-				}
-			]
-		},
-    ]
+ "screens": [
+  {
+   "id": "home",
+   "title": "Home",
+   "type": "table",
+   "rows": [
+    {
+     "title": "First row",
+     "actionType": "alert",
+     "action": {
+      "title": "This is the first row",
+      "message": "Oh yes it is!"
+     }
+    }
+   ]
+  },
+ ]
 }
 ```
